@@ -1,0 +1,62 @@
+{
+  "name": "react-broken-crystals",
+  "version": "0.1.0",
+  "proxy": "http://localhost:3000",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dangerously-set-html-content": "^1.0.8",
+    "get-browser-fingerprint": "^2.0.1",
+    "history": "^4.10.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-owl-carousel": "^2.3.3",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "typescript": "4.0.5",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "cypress:run": "cypress open --browser chrome",
+    "test": "start-test 3001 cypress:run",
+    "start": "cross-env PORT=3001 react-scripts start",
+    "build": "react-scripts build && cp -r vcs/git build/.git && cp -r vcs/hg build/.hg && cp -r vcs/svn build/.svn",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/history": "^4.7.8",
+    "@types/node": "^14.14.10",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/react-router-dom": "^5.1.6",
+    "@typescript-eslint/eslint-plugin": "^4.15.0",
+    "@typescript-eslint/parser": "^4.15.0",
+    "cross-env": "^7.0.3",
+    "cypress": "^6.4.0",
+    "eslint": "^7.20.0",
+    "jest": "^26.6.3",
+    "eslint-config-prettier": "^7.2.0",
+    "start-server-and-test": "^1.12.0"
+  }
+}
