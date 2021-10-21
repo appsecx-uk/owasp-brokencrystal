@@ -11,8 +11,6 @@ The application contains:
 
 ## Building and Running the Application
 
-### Ola2x
-
 ```bash
 # build server
 npm ci --prefix public && npm run build --prefix public
