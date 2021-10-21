@@ -11,7 +11,7 @@ The application contains:
 
 ## Building and Running the Application
 
-### Ola
+### Ola2x
 
 ```bash
 # build server
