@@ -2,7 +2,7 @@
 
 Broken Crystals is a benchmark application that uses modern technologies and implements a set of common security vulnerabilities. 
 
-** take it*
+** take it* asdf
 
 The application contains: 
 - React based web client
