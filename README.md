@@ -11,6 +11,9 @@ The application contains:
 
 ## Building and Running the Application
 
+
+** TEST **
+
 ```bash
 # build server
 npm ci --prefix public && npm run build --prefix public
