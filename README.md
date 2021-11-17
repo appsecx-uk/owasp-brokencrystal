@@ -9,7 +9,7 @@ The application contains:
   - Swagger JSON file - http://server/swagger-json
 - nginx web server that serves the client and acts as a reverse proxy for the server's API requests
 
-## Building and Running the Application
+## Building and Running the Application\\]
 
 ```bash
 # build server
